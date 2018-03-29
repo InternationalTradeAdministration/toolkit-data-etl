@@ -1,0 +1,295 @@
+{
+    "program": {
+        "name": "Civil Nuclear",
+        "id": "a31t0000000CyDB",
+        "hasTranslations": false,
+        "disclaimerText": "The information on the toolkit website is intended to assist foreign buyers seeking to identify U.S. technology and service providers in the Civil Nuclear industry. The list is not exhaustive of all U.S. exporters of goods, services or technology in this sector.\nListing does not constitute endorsement by ITA of a business or its products, services or technology.\nITA has performed limited due diligence but recommends strongly that both parties perform their own due diligence, investigation, and background research before entering into a commercial relationship on the basis of the information found on this website. \nITA assumes no responsibility or liability for the actions users may take based on the information provided on this website. ITA reserves the right not to list any particular business and to remove companies or modules from the Toolkit as ITA deems necessary or appropriate.",
+        "description": "The U.S. Nuclear Energy Toolkit is a buyer&#39;s resource guide that helps connect foreign buyers with U.S. providers of civil nuclear products and services. The Toolkit fosters export opportunities for the U.S. civil nuclear industry by connecting U.S. companies and foreign buyers and informing foreign buyers about U.S. capabilities in this sector. U.S. civil nuclear companies that would like to be listed as solution providers should submit an application ."
+    },
+    "pageLabels": {
+        "usSolutionProviderLabel": "U.S. Solution Provider",
+        "totalProvidersLabel": "Total Providers",
+        "solutionLabel": "Solution",
+        "selectAnOptionLabel": "Select an Option",
+        "searchLabel": "U.S. Solution Provider",
+        "noResultsForCriteriaLabel": "There are no results for the selected criteria"
+    },
+    "filterGroups": [
+        {
+            "sortOrder": 6,
+            "name": "Sector",
+            "filterItems": [
+                {
+                    "productIds": [
+                        "01tt0000000UhzMAAS"
+                    ],
+                    "name": "Design, Construction, Operation",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UhzMAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UhySAAS"
+                    ],
+                    "name": "Advisory and Legal Support Services",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UhySAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UhynAAC"
+                    ],
+                    "name": "Back-End Services",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UhynAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UhyqAAC"
+                    ],
+                    "name": "Components",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UhyqAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UhzhAAC"
+                    ],
+                    "name": "Educational Services & Training",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UhzhAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Uhz4AAC"
+                    ],
+                    "name": "Consulting",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Uhz4AAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui07AAC"
+                    ],
+                    "name": "General Services",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui07AAC"
+                }
+            ],
+            "filterGroupType": "Product Class"
+        },
+        {
+            "sortOrder": 1,
+            "name": "Product",
+            "filterItems": [
+                {
+                    "productIds": [
+                        "01tt0000000UhzMAAS"
+                    ],
+                    "name": "Asset Management/Plant Life Extension",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UhzMAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UhySAAS"
+                    ],
+                    "name": "Auditing",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UhySAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UhynAAC"
+                    ],
+                    "name": "Decommissioning",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UhynAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UhyqAAC"
+                    ],
+                    "name": "Electrical Equipment",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UhyqAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UhzOAAS"
+                    ],
+                    "name": "Engineering & Analytical Services",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UhzOAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UhyoAAC"
+                    ],
+                    "name": "Fuel Storage",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UhyoAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UhzhAAC"
+                    ],
+                    "name": "Governance",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UhzhAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Uhz7AAC"
+                    ],
+                    "name": "Heavy Equipment",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Uhz7AAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UhyxAAC"
+                    ],
+                    "name": "Mechanical Equipment",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UhyxAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UhzQAAS"
+                    ],
+                    "name": "Obsolescence Management",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UhzQAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UhziAAC"
+                    ],
+                    "name": "Policy",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UhziAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UhysAAC"
+                    ],
+                    "name": "Primary Containment Systems",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UhysAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Uhz4AAC"
+                    ],
+                    "name": "Project Management",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Uhz4AAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UhyeAAC"
+                    ],
+                    "name": "Quality Assurance",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UhyeAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UhyuAAC"
+                    ],
+                    "name": "Reactor Coolant Systems",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UhyuAAC"
+                }
+            ],
+            "filterGroupType": "Solution"
+        },
+        {
+            "sortOrder": 5,
+            "name": "Sub-sector",
+            "filterItems": [
+                {
+                    "productIds": [
+                        "01tt0000000UhySAAS"
+                    ],
+                    "name": "Financial/Insurance",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UhySAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UhyqAAC"
+                    ],
+                    "name": "Nuclear Island",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UhyqAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UhywAAC"
+                    ],
+                    "name": "Turbine Island",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UhywAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UhzhAAC"
+                    ],
+                    "name": "Leadership Development",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UhzhAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Uhz7AAC"
+                    ],
+                    "name": "Construction Materials/Equipment",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Uhz7AAC"
+                }
+            ],
+            "filterGroupType": "Product Category"
+        }
+    ],
+    "currentLanguage": {
+        "name": "English",
+        "iso": "en",
+        "direction": "ltr"
+    },
+    "availableLanguages": [
+        {
+            "name": "English",
+            "iso": "en",
+            "direction": "ltr"
+        }
+    ]
+}

@@ -1,0 +1,347 @@
+{
+    "program": {
+        "name": "NextGen",
+        "id": "a31t0000000CyDG",
+        "hasTranslations": false,
+        "disclaimerText": "<div>The information posted on the export.gov website includes hypertext links or pointers to information created and maintained by other public and/or private organizations. Export.gov provides these links and pointers solely for our users&#39; information and convenience. When users select a link to an outside website, they are leaving the export.gov site and are subject to the privacy and security policies of the owners/sponsors of the outside website.</div>\n\n<ul><li>The International Trade Administration (ITA) and export.gov do not control or guarantee the accuracy, relevance, timeliness, or completeness of information contained on a linked website.</li><li>ITA and export.gov do not endorse the organizations sponsoring linked websites and we do not endorse the views they express or the products/services they offer.</li><li>ITA and export.gov cannot authorize the use of copyrighted materials contained in linked websites. Users must request such authorization from the sponsor of the linked website.</li><li>ITA and export.gov are not responsible for transmissions users receive from linked websites.</li><li>ITA and export.gov do not guarantee that outside websites comply with Section 508 (accessibility requirements) of the Rehabilitation Act.</li></ul>",
+        "description": "The NextGen Solutions Vendors Guide catalogues U.S. providers of the technology and services necessary to implement the Next Generation Air Transportation System (NextGen) in accordance with the International Civil Aviation Organization?s (ICAO) Aviation System Block Upgrade (ASBU) initiative. These state-of-the-art solutions address current and expected needs regarding air traffic management, airspace capacity, flight path efficiency, enhanced communications and data exchanges, and operational improvements to the airport environment."
+    },
+    "pageLabels": {
+        "usSolutionProviderLabel": "U.S. Solution Provider",
+        "totalProvidersLabel": "Total Providers",
+        "solutionLabel": "Solution",
+        "selectAnOptionLabel": "Select an Option",
+        "searchLabel": "U.S. Solution Provider",
+        "noResultsForCriteriaLabel": "There are no results for the selected criteria"
+    },
+    "filterGroups": [
+        {
+            "sortOrder": 6,
+            "name": "Capability",
+            "filterItems": [
+                {
+                    "productIds": [
+                        "01tt0000000Ui2lAAC"
+                    ],
+                    "name": "Network Operations",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui2lAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui2AAAS"
+                    ],
+                    "name": "Advanced Meteorological Information",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui2AAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui1pAAC"
+                    ],
+                    "name": "Arrival/ Departure Management",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui1pAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui24AAC"
+                    ],
+                    "name": "Continuous Descent Operations",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui24AAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui2qAAC"
+                    ],
+                    "name": "Safety Nets",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui2qAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui27AAC"
+                    ],
+                    "name": "Remotely Piloted Aircraft",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui27AAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui1lAAC"
+                    ],
+                    "name": "Airport Accessibility",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui1lAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui1vAAC"
+                    ],
+                    "name": "Surface Operations",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui1vAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui1tAAC"
+                    ],
+                    "name": "Remote Aerodrome Control Towers",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui1tAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui2YAAS"
+                    ],
+                    "name": "Engineering",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui2YAAS"
+                }
+            ],
+            "filterGroupType": "Product Class"
+        },
+        {
+            "sortOrder": 3,
+            "name": "Performance Improvement Area",
+            "filterItems": [
+                {
+                    "summary": "Optimum Capacity and Flexible Flights refer to the target performance benefit of fully realized complexity management through global collaborative ATM. The capabilities inherent in this performance improvement area include free-routing, network operations, initial surveillance, self separation, optimum flight levels, airborne collision avoidance systems, and safety nets.",
+                    "productIds": [
+                        "01tt0000000Ui2lAAC",
+                        "01tt0000000Ui2qAAC"
+                    ],
+                    "name": "Optimum Capacity and Flexible Flights",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "a0vt0000000U6WgAAK"
+                },
+                {
+                    "summary": "Globally Interoperable Systems and Data refers to the target performance benefit of fully realized flight and flow information for the collaborative environment (FF-ICE) and enhanced information management. The capabilities inherent in this performance improvement area include FF-ICE, digital aeronautical information management, system-wide information management (SWIM), and advanced meteorological information.",
+                    "productIds": [
+                        "01tt0000000Ui2AAAS",
+                        "01tt0000000Ui2BAAS"
+                    ],
+                    "name": "Globally Interoperable Systems and Data",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "a0vt0000000U6WWAA0"
+                },
+                {
+                    "summary": "Airport Operations refers to the target performance benefit of fully realized arrival, departure, and surface management (AMAN/DMAN/SMAN). The capabilities inherent in this performance improvement area include airport accessibility, preliminary arrival and departure management, collaborative decision-making in the airport environment, surface operations, wake turbulence separation, and remote aerodrome control towers.",
+                    "productIds": [
+                        "01tt0000000Ui1pAAC",
+                        "01tt0000000Ui1sAAC",
+                        "01tt0000000Ui1lAAC",
+                        "01tt0000000Ui1mAAC",
+                        "01tt0000000Ui1vAAC",
+                        "01tt0000000Ui1tAAC",
+                        "01tt0000000Ui1wAAC"
+                    ],
+                    "name": "Airport Operations",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "a0vt0000000U6WMAA0"
+                },
+                {
+                    "summary": "Efficient Flight Path refers to the target performance benefit of fully realized Trajectory-Based Operations (TBO). The capabilities inherent in this performance improvement area include continuous descent operations, fully synchronized trajectory-based operations, continuous climb operations, and remotely piloted aircraft.",
+                    "productIds": [
+                        "01tt0000000Ui24AAC",
+                        "01tt0000000Ui27AAC"
+                    ],
+                    "name": "Efficient Flight Path",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "a0vt0000000U6WRAA0"
+                },
+                {
+                    "summary": "Knowledge and Service Providers refers to the vendors who can provide the expertise necessary to implement the four ICAO-designated performance improvement areas (i.e., Airport Operations, Globally Interoperable Systems and Data, Optimum Capacity and Flexible Flights, and Efficient Flight Path) as well as the services that complement and/or support such implementation.",
+                    "productIds": [
+                        "01tt0000000Ui2YAAS"
+                    ],
+                    "name": "Knowledge and Service Providers",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "a0vt0000000U6WbAAK"
+                }
+            ],
+            "filterGroupType": "Resource"
+        },
+        {
+            "sortOrder": 1,
+            "name": "Solution",
+            "filterItems": [
+                {
+                    "productIds": [
+                        "01tt0000000Ui2lAAC"
+                    ],
+                    "name": "Enhanced Flow Performance through Network Operational Planning",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui2lAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui2AAAS"
+                    ],
+                    "name": "Enhanced Operational Decisions through Integrated Meteorological Information (Near-term and Immediate Service)",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui2AAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui2BAAS"
+                    ],
+                    "name": "Enhanced Operational Decisions through Integrated Meteorological Information (Planning and Near-term Service)",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui2BAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui1pAAC"
+                    ],
+                    "name": "Improve Traffic flow through Runway Sequencing (AMAN/DMAN)",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui1pAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui24AAC"
+                    ],
+                    "name": "Improved Flexibility And Efficiency In Descent Profiles (CDOS) Using VNAV, Required Speed, And Time At Arrival",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui24AAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui2qAAC"
+                    ],
+                    "name": "Increased Effectiveness of Ground-Based Safety Nets",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui2qAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui27AAC"
+                    ],
+                    "name": "Initial Integration of Remotely Piloted Aircraft (RPA) into Non-Segregated Airspace",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui27AAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui1sAAC"
+                    ],
+                    "name": "Linked AMAN/DMAN",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui1sAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui1lAAC"
+                    ],
+                    "name": "Optimization of Approach Procedures Including Vertical Guidance",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui1lAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui1mAAC"
+                    ],
+                    "name": "Optimized Airport Accessibility",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui1mAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui1vAAC"
+                    ],
+                    "name": "Optimized Surface Routing and Safety Benefits (A-SMGCS Level 3-4 and SVS)",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui1vAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui1tAAC"
+                    ],
+                    "name": "Remotely Operated Aerodrome Control",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui1tAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui1wAAC"
+                    ],
+                    "name": "Safety and Efficiency of Surface Operations (A-SMGCS Level 1-2)",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui1wAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui2YAAS"
+                    ],
+                    "name": "Technical Engineering",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui2YAAS"
+                }
+            ],
+            "filterGroupType": "Solution"
+        }
+    ],
+    "currentLanguage": {
+        "name": "English",
+        "iso": "en",
+        "direction": "ltr"
+    },
+    "availableLanguages": [
+        {
+            "name": "English",
+            "iso": "en",
+            "direction": "ltr"
+        },
+        {
+            "name": "Arabic",
+            "iso": "ar",
+            "direction": "rtl"
+        },
+        {
+            "name": "Chinese (中文)",
+            "iso": "zh",
+            "direction": "ltr"
+        },
+        {
+            "name": "French",
+            "iso": "fr",
+            "direction": "ltr"
+        },
+        {
+            "name": "Spanish",
+            "iso": "es",
+            "direction": "ltr"
+        }
+    ]
+}

@@ -1,0 +1,898 @@
+{
+    "program": {
+        "name": "U.S. Environmental Solutions",
+        "id": "a31t0000000CyD6",
+        "hasTranslations": true,
+        "disclaimerText": "The information on the toolkit website is intended to assist foreign buyers seeking to identify U.S. technology and service providers in the U.S. Environmental Solutions industry. The list is not exhaustive of all U.S. exporters of goods, services or technology in this sector.\nListing does not constitute endorsement by ITA of a business or its products, services or technology.\nITA has performed limited due diligence but recommends strongly that both parties perform their own due diligence, investigation, and background research before entering into a commercial relationship on the basis of the information found on this website. \nITA assumes no responsibility or liability for the actions users may take based on the information provided on this website. ITA reserves the right not to list any particular business and to remove companies or modules from the Toolkit as ITA deems necessary or appropriate.",
+        "description": "The U.S. Environmental Solutions Toolkit is a buyer&#39;s resource guide that marries EPA expertise on solving environmental challenges with a catalogue of U.S. providers of related technologies. The U.S. Environmental Solutions Toolkit fosters export opportunities for the U.S. environmental industry as well as fosters and advances environmental protection goals. U.S. environmental technology or services companies that would like to be listed as solution providers should submit an application ."
+    },
+    "pageLabels": {
+        "usSolutionProviderLabel": "U.S. Solution Provider",
+        "totalProvidersLabel": "Total Providers",
+        "solutionLabel": "Solution",
+        "selectAnOptionLabel": "Select an Option",
+        "searchLabel": "U.S. Solution Provider",
+        "noResultsForCriteriaLabel": "There are no results for the selected criteria"
+    },
+    "filterGroups": [
+        {
+            "sortOrder": 4,
+            "name": "Environmental Issue",
+            "filterItems": [
+                {
+                    "summary": "EPA revised the new source performance standards for volatile organic compounds from leaking components at onshore natural gas processing plants and new source performance standards for sulfur dioxide emissions from natural gas processing plants. The EPA also established standards for certain oil and gas operations not covered by the existing standards. In addition to the operations covered by the existing standards, the newly established standards will regulate volatile organic compound emissions from gas wells, centrifugal compressors, reciprocating compressors, pneumatic controllers and storage vessels.",
+                    "productIds": [
+                        "01tt0000000Ui08AAC",
+                        "01tt0000000Ui0cAAC",
+                        "01tt0000000Ui1TAAS"
+                    ],
+                    "name": "Emissions Control for Oil and Natural Gas Processing",
+                    "linksSize": 2,
+                    "links": [
+                        {
+                            "url": "https://www.epa.gov/controlling-air-pollution-oil-and-natural-gas-industry",
+                            "name": "U.S. EPA Regulatory Background",
+                            "id": "a3Lt0000000JAPBEA4"
+                        },
+                        {
+                            "url": "http://www.epa.gov/ttn/ecas/regdata/RIAs/oilnaturalgasfinalria.pdf",
+                            "name": "Analysis: Proposed NSPS & Amendments: NESHAP: Oil & Natural Gas",
+                            "id": "a3Lt0000000JAPPEA4"
+                        }
+                    ],
+                    "id": "a0vt0000000U6UaAAK"
+                },
+                {
+                    "summary": "Coal and oil fired electric generating units emit harmful pollutants including mercury, non-mercury metallic toxics, acid gases, and organic air toxics including dioxin. Uncontrolled releases of mercury from power plants can damage children's developing nervous systems, reducing their ability to think and learn. Releases of other toxic air pollutants from power plants can cause a range of dangerous health problems in adults, from cancer to respiratory illnesses.",
+                    "productIds": [
+                        "01tt0000000Ui0BAAS",
+                        "01tt0000000Ui0CAAS",
+                        "01tt0000000Ui0XAAS",
+                        "01tt0000000Ui0yAAC",
+                        "01tt0000000Ui12AAC",
+                        "01tt0000000Ui1eAAC",
+                        "01tt0000000Ui1fAAC"
+                    ],
+                    "name": "Mercury Emissions Control from Power Plants",
+                    "linksSize": 2,
+                    "links": [
+                        {
+                            "url": "https://www3.epa.gov/ttnecas1/regdata/RIAs/matsriafinal.pdf",
+                            "name": "U.S. EPA Regulatory Background",
+                            "id": "a3Lt0000000JAP5EAO"
+                        },
+                        {
+                            "url": "https://www.epa.gov/mercury/resources-mercury-science-and-research",
+                            "name": "U.S. EPA Research and Analysis",
+                            "id": "a3Lt0000000JAP6EAO"
+                        }
+                    ],
+                    "id": "a0vt0000000U6UpAAK"
+                },
+                {
+                    "summary": "Groundwater is the source of water found in wells and springs and is an essential source of drinking water. Groundwater contamination is usually very difficult to characterize and clean up, often requiring decades of treatment and monitoring. Each groundwater contamination problem is uniquely complex, yet there are many common issues related to the management and cleanup of these problems. Almost every cleanup program must devote a significant level of attention and resources to groundwater issues.",
+                    "productIds": [
+                        "01tt0000000Ui0EAAS",
+                        "01tt0000000Ui0LAAS",
+                        "01tt0000000Ui0OAAS",
+                        "01tt0000000Ui0dAAC",
+                        "01tt0000000Ui0jAAC",
+                        "01tt0000000Ui16AAC",
+                        "01tt0000000Ui1CAAS"
+                    ],
+                    "name": "Groundwater Remediation",
+                    "linksSize": 2,
+                    "links": [
+                        {
+                            "url": "https://www.epa.gov/dwreginfo/ground-water-rule",
+                            "name": "U.S. EPA Regulatory Background",
+                            "id": "a3Lt0000000JAP7EAO"
+                        },
+                        {
+                            "url": "https://www.epa.gov/sites/production/files/2015-10/documents/regulatory_impact_analysis_for_the_proposed_ground_water_rule.pdf",
+                            "name": "U.S. EPA Research and Analysis",
+                            "id": "a3Lt0000000JAP8EAO"
+                        }
+                    ],
+                    "id": "a0vt0000000U6UkAAK"
+                },
+                {
+                    "summary": "One of the major concerns regarding constituents in municipal wastewater treatment plant discharges is the concentration of nutrient compounds, in particular nitrogen and phosphorus. Nutrients stimulate the growth of microorganisms (including algae) and other aquatic vegetation in receiving waters, leading to decreased oxygen levels. Excess nutrients are a significant water quality concern in many of the nations waters and a leading cause of impairment of designated uses. Wastewater treatment facilities are increasingly being required to address this issue by implementing treatment processes that reduce effluent nutrient concentrations to levels that regulators deem sufficiently protective of the environment.",
+                    "productIds": [
+                        "01tt0000000Ui0FAAS",
+                        "01tt0000000Ui0HAAS",
+                        "01tt0000000Ui0MAAS",
+                        "01tt0000000Ui0SAAS",
+                        "01tt0000000Ui0aAAC",
+                        "01tt0000000Ui0bAAC",
+                        "01tt0000000Ui0vAAC",
+                        "01tt0000000Ui0wAAC",
+                        "01tt0000000Ui14AAC",
+                        "01tt0000000Ui15AAC",
+                        "01tt0000000Ui1aAAC",
+                        "01tt0000000Ui1gAAC"
+                    ],
+                    "name": "Municipal Nutrient Removal",
+                    "linksSize": 3,
+                    "links": [
+                        {
+                            "url": "https://www.epa.gov/laws-regulations/summary-clean-water-act",
+                            "name": "U.S. EPA Regulatory Background",
+                            "id": "a3Lt0000000JAP0EAO"
+                        },
+                        {
+                            "url": "https://go.usa.gov/xn3Tj",
+                            "name": "Municipal Nutrient Removal Technologies Reference - Vol. 1",
+                            "id": "a3Lt0000000JAP1EAO"
+                        },
+                        {
+                            "url": "https://go.usa.gov/xn3TW",
+                            "name": "Municipal Nutrient Removal Technologies Reference - Vol. 2",
+                            "id": "a3Lt0000000JAP2EAO"
+                        }
+                    ],
+                    "id": "a0vt0000000U6UzAAK"
+                },
+                {
+                    "summary": "An important aspect of municipal wastewater is that it is amenable to biological treatment. The biological treatment component of a municipal treatment plant is termed secondary treatment and is usually preceded by simple settling (primary treatment). Secondary treatment standards are established by EPA for publicly owned treatment works (POTWs) and reflect the performance of secondary wastewater treatment plants. The secondary treatment standards also provide for special considerations regarding combined sewers, industrial wastes, waste stabilization ponds, less concentrated influent wastewater for combined and separate sewers, and alternative standards for treatment facilities considered equivalent to secondary treatment.",
+                    "productIds": [
+                        "01tt0000000Ui0JAAS",
+                        "01tt0000000Ui0iAAC",
+                        "01tt0000000Ui1DAAS",
+                        "01tt0000000Ui1HAAS",
+                        "01tt0000000Ui1RAAS"
+                    ],
+                    "name": "Secondary or Advanced Wastewater Treatment",
+                    "linksSize": 3,
+                    "links": [
+                        {
+                            "url": "https://www.epa.gov/eg",
+                            "name": "U.S. EPA Regulatory Background",
+                            "id": "a3Lt0000000JAOuEAO"
+                        },
+                        {
+                            "url": "http://www.epa.gov/npdes/pubs/npdes_secondary_treatment_report_march2013.pdf",
+                            "name": "Report: Performance of Secondary Treatment Technology",
+                            "id": "a3Lt0000000JAOvEAO"
+                        },
+                        {
+                            "url": "http://www.epa.gov/npdes/pubs/ow_shapiro_nrdcpetition.pdf",
+                            "name": "Decision Memorandum: Non-uniform Secondary Treatment Standards",
+                            "id": "a3Lt0000000JAPOEA4"
+                        }
+                    ],
+                    "id": "a0vt0000000U6VEAA0"
+                },
+                {
+                    "summary": "Biosolids are the nutrient-rich organic materials resulting from the treatment of sewage sludge (the name for the solid, semisolid or liquid untreated residue generated during the treatment of domestic sewage in a treatment facility). When treated and processed, sewage sludge becomes biosolids which can be safely recycled and applied as fertilizer to sustainably improve and maintain productive soils and stimulate plant growth.",
+                    "productIds": [
+                        "01tt0000000Ui0UAAS",
+                        "01tt0000000Ui1JAAS",
+                        "01tt0000000Ui1hAAC",
+                        "01tt0000000Ui1iAAC"
+                    ],
+                    "name": "Biosolid/Sludge Management, Use, or Disposal",
+                    "linksSize": 4,
+                    "links": [
+                        {
+                            "url": "https://www.epa.gov/biosolids/biosolids-laws-and-regulations",
+                            "name": "U.S. EPA Regulatory Background",
+                            "id": "a3Lt0000000JAPCEA4"
+                        },
+                        {
+                            "url": "https://go.usa.gov/xnqDN",
+                            "name": "Preparation Guide",
+                            "id": "a3Lt0000000JAPDEA4"
+                        },
+                        {
+                            "url": "https://go.usa.gov/xRRE3",
+                            "name": "Statistical Support Documentation",
+                            "id": "a3Lt0000000JAPEEA4"
+                        },
+                        {
+                            "url": "https://www.epa.gov/biosolids/sewage-sludge-surveys",
+                            "name": "Statistical Survey Methods",
+                            "id": "a3Lt0000000JAPFEA4"
+                        }
+                    ],
+                    "id": "a0vt0000000U6UVAA0"
+                },
+                {
+                    "summary": "The control of landfill gas results in emissions reductions of over 30 volatile organic compounds and air toxics such as toluene, benzene, and vinyl chloride. The reduction of these emissions has direct and indirect health benefits as well as environmental benefits. In addition, the control of landfill gas results in reductions of methane gas emissions which not only reduces the potential for fires and explosions near landfills but also reduces the potential for global climate change related to methane gas emissions. Another benefit is the reduction of odor problems which reduces the potential for local property de-valuation and poorer quality of life for local residents.",
+                    "productIds": [
+                        "01tt0000000Ui0oAAC",
+                        "01tt0000000Ui0rAAC"
+                    ],
+                    "name": "Municipal Landfill Standards",
+                    "linksSize": 2,
+                    "links": [
+                        {
+                            "url": "https://go.usa.gov/xn32z",
+                            "name": "U.S. EPA Regulatory Background",
+                            "id": "a3Lt0000000JAP3EAO"
+                        },
+                        {
+                            "url": "https://go.usa.gov/xn32S",
+                            "name": "U.S. EPA Research and Analysis",
+                            "id": "a3Lt0000000JAP4EAO"
+                        }
+                    ],
+                    "id": "a0vt0000000U6UuAAK"
+                },
+                {
+                    "summary": "Arsenic is a semi-metal element. It is odorless and tasteless. It occurs naturally in rocks and soil, water, air, and plants and animals. It can be released into the environment through natural activities such as volcanic action, erosion of rocks, and forest fires. Industry practices such as copper smelting, mining and coal burning also contribute to arsenic in our environment. Because it occurs naturally in the environment and as a by-product of some agricultural and industrial activities, it can enter drinking water through the ground or as runoff into surface water sources. Human exposure to arsenic can cause both short and long term health effects.",
+                    "productIds": [
+                        "01tt0000000Ui0xAAC",
+                        "01tt0000000Ui1UAAS"
+                    ],
+                    "name": "Arsenic Remediation in Drinking Water",
+                    "linksSize": 4,
+                    "links": [
+                        {
+                            "url": "https://www.epa.gov/dwreginfo/drinking-water-arsenic-rule-history",
+                            "name": "U.S. EPA Regulatory Background",
+                            "id": "a3Lt0000000JAPGEA4"
+                        },
+                        {
+                            "url": "https://go.usa.gov/xRRPM",
+                            "name": "Analytical Methods for Rule Determinations",
+                            "id": "a3Lt0000000JAPHEA4"
+                        },
+                        {
+                            "url": "https://go.usa.gov/xRRPe",
+                            "name": "Arsenic Occurrence in Public Drinking Water",
+                            "id": "a3Lt0000000JAPIEA4"
+                        },
+                        {
+                            "url": "https://go.usa.gov/xRRPz",
+                            "name": "Economic Analysis",
+                            "id": "a3Lt0000000JAPJEA4"
+                        }
+                    ],
+                    "id": "a0vt0000000U6UQAA0"
+                }
+            ],
+            "filterGroupType": "Resource"
+        },
+        {
+            "sortOrder": 4,
+            "name": "EPA Regulation",
+            "filterItems": [
+                {
+                    "productIds": [
+                        "01tt0000000Ui08AAC",
+                        "01tt0000000Ui0cAAC",
+                        "01tt0000000Ui1TAAS"
+                    ],
+                    "name": "SOP for New Stationary Sources: Oil & Gas",
+                    "linksSize": 2,
+                    "links": [
+                        {
+                            "url": "https://go.usa.gov/xRREB",
+                            "name": "Standards of Performance for New Stationary Sources: Oil and",
+                            "id": "a3Lt0000000JAOWEA4"
+                        },
+                        {
+                            "url": "https://go.usa.gov/xnqDS",
+                            "name": "Contact the U.S. EPA",
+                            "id": "a3Lt0000000JAOXEA4"
+                        }
+                    ],
+                    "id": "a0vt0000000U6WHAA0"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0BAAS",
+                        "01tt0000000Ui0CAAS",
+                        "01tt0000000Ui0XAAS",
+                        "01tt0000000Ui0yAAC",
+                        "01tt0000000Ui12AAC",
+                        "01tt0000000Ui1eAAC",
+                        "01tt0000000Ui1fAAC"
+                    ],
+                    "name": "Mercury and Air Toxics Standards (MATS)",
+                    "linksSize": 2,
+                    "links": [
+                        {
+                            "url": "http://www.epa.gov/mats/",
+                            "name": "Mercury and Air Toxics Standards (MATS)",
+                            "id": "a3Lt0000000JAOgEAO"
+                        },
+                        {
+                            "url": "https://go.usa.gov/xn3ge",
+                            "name": "Contact the U.S. EPA",
+                            "id": "a3Lt0000000JAOhEAO"
+                        }
+                    ],
+                    "id": "a0vt0000000U6ViAAK"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0EAAS",
+                        "01tt0000000Ui0FAAS",
+                        "01tt0000000Ui0HAAS",
+                        "01tt0000000Ui0LAAS",
+                        "01tt0000000Ui0MAAS",
+                        "01tt0000000Ui0OAAS",
+                        "01tt0000000Ui0SAAS",
+                        "01tt0000000Ui0aAAC",
+                        "01tt0000000Ui0bAAC",
+                        "01tt0000000Ui0dAAC",
+                        "01tt0000000Ui0jAAC",
+                        "01tt0000000Ui0vAAC",
+                        "01tt0000000Ui0wAAC",
+                        "01tt0000000Ui14AAC",
+                        "01tt0000000Ui15AAC",
+                        "01tt0000000Ui16AAC",
+                        "01tt0000000Ui1CAAS",
+                        "01tt0000000Ui1aAAC",
+                        "01tt0000000Ui1gAAC"
+                    ],
+                    "name": "Clean Water Act",
+                    "linksSize": 3,
+                    "links": [
+                        {
+                            "url": "https://www.epa.gov/laws-regulations/summary-clean-water-act",
+                            "name": "Clean Water Act",
+                            "id": "a3Lt0000000JAOYEA4"
+                        },
+                        {
+                            "url": "https://www.epa.gov/aboutepa/about-office-water",
+                            "name": "Contact the U.S. EPA, Office of Water",
+                            "id": "a3Lt0000000JAOZEA4"
+                        },
+                        {
+                            "url": "https://go.usa.gov/xn3TX",
+                            "name": "Contact the U.S. EPA, Waters of the U.S. Rulemaking",
+                            "id": "a3Lt0000000JAOkEAO"
+                        }
+                    ],
+                    "id": "a0vt0000000U6VOAA0"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0EAAS",
+                        "01tt0000000Ui0LAAS",
+                        "01tt0000000Ui0OAAS",
+                        "01tt0000000Ui0dAAC",
+                        "01tt0000000Ui0jAAC",
+                        "01tt0000000Ui16AAC",
+                        "01tt0000000Ui1CAAS"
+                    ],
+                    "name": "Comprehensive Environ. Response, Compensation & Liability Act",
+                    "linksSize": 2,
+                    "links": [
+                        {
+                            "url": "https://www.epa.gov/superfund",
+                            "name": "Comprehensive Environ. Response, Compensation & Liability Act",
+                            "id": "a3Lt0000000JAPLEA4"
+                        },
+                        {
+                            "url": "https://go.usa.gov/xn3g7",
+                            "name": "Contact the U.S. EPA",
+                            "id": "a3Lt0000000JAOaEAO"
+                        }
+                    ],
+                    "id": "a0vt0000000U6VTAA0"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0JAAS",
+                        "01tt0000000Ui0iAAC",
+                        "01tt0000000Ui1DAAS",
+                        "01tt0000000Ui1HAAS",
+                        "01tt0000000Ui1RAAS"
+                    ],
+                    "name": "National Pollutant Discharge Elimination System (NPDES): Secondary Treatment",
+                    "linksSize": 2,
+                    "links": [
+                        {
+                            "url": "http://www.epa.gov/npdes/pubs/chapt_05.pdf",
+                            "name": "National Pollutant Discharge Elimination System (NPDES): Secondary Treatment",
+                            "id": "a3Lt0000000JAPNEA4"
+                        },
+                        {
+                            "url": "https://www.epa.gov/npdes/forms/contact-us-about-npdes#undefined ",
+                            "name": "Contact the U.S. EPA",
+                            "id": "a3Lt0000000JAOpEAO"
+                        }
+                    ],
+                    "id": "a0vt0000000U6VxAAK"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0UAAS",
+                        "01tt0000000Ui1JAAS",
+                        "01tt0000000Ui1hAAC",
+                        "01tt0000000Ui1iAAC"
+                    ],
+                    "name": "Standards for the Use or Disposal of Sewage Sludge",
+                    "linksSize": 2,
+                    "links": [
+                        {
+                            "url": "https://go.usa.gov/xRREr",
+                            "name": "Standards for the Use or Disposal of Sewage Sludge",
+                            "id": "a3Lt0000000JAOdEAO"
+                        },
+                        {
+                            "url": "https://www.epa.gov/biosolids/forms/contact-us-about-biosolids ",
+                            "name": "Contact the U.S. EPA",
+                            "id": "a3Lt0000000JAOeEAO"
+                        }
+                    ],
+                    "id": "a0vt0000000U6W2AAK"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0oAAC",
+                        "01tt0000000Ui0rAAC"
+                    ],
+                    "name": "SOP for New Stationary Sources: Landfills & Municipal Waste",
+                    "linksSize": 2,
+                    "links": [
+                        {
+                            "url": "https://go.usa.gov/xn32h",
+                            "name": "SOP for New Stationary Sources: Landfills & Municipal Waste",
+                            "id": "a3Lt0000000JAOiEAO"
+                        },
+                        {
+                            "url": "https://go.usa.gov/xn3T3",
+                            "name": "Contact the U.S. EPA",
+                            "id": "a3Lt0000000JAOjEAO"
+                        }
+                    ],
+                    "id": "a0vt0000000U6WCAA0"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0xAAC",
+                        "01tt0000000Ui1UAAS"
+                    ],
+                    "name": "Safe Drinking Water Act - Arsenic Rule",
+                    "linksSize": 2,
+                    "links": [
+                        {
+                            "url": "https://www.epa.gov/dwreginfo/chemical-contaminant-rules",
+                            "name": "Safe Drinking Water Act - Arsenic Rule",
+                            "id": "a3Lt0000000JAObEAO"
+                        },
+                        {
+                            "url": "https://safewater.zendesk.com/hc/en-us",
+                            "name": "Contact the U.S. EPA",
+                            "id": "a3Lt0000000JAOcEAO"
+                        }
+                    ],
+                    "id": "a0vt0000000U6VsAAK"
+                }
+            ],
+            "filterGroupType": "Resource"
+        },
+        {
+            "sortOrder": 6,
+            "name": "Solution",
+            "filterItems": [
+                {
+                    "productIds": [
+                        "01tt0000000Ui08AAC"
+                    ],
+                    "name": "Absorption Towers",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui08AAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0BAAS"
+                    ],
+                    "name": "Acid Gases - Dry Sorbent Injection with Fabric Filters",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui0BAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0CAAS"
+                    ],
+                    "name": "Acid Gases - Flue-gas Desulfurization",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui0CAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0EAAS"
+                    ],
+                    "name": "Air Sparging",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui0EAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0FAAS"
+                    ],
+                    "name": "Anaerobic/Anoxic/Oxic (A2O)",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui0FAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0HAAS"
+                    ],
+                    "name": "Anoxic/Oxic (A/O)",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui0HAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0JAAS"
+                    ],
+                    "name": "Biological Treatment Processes",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui0JAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0LAAS"
+                    ],
+                    "name": "Bioremediation",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui0LAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0MAAS"
+                    ],
+                    "name": "Chemical Precipitation for Nitrogen and Phosphorus",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui0MAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0OAAS"
+                    ],
+                    "name": "Chemical Treatment",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui0OAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0SAAS"
+                    ],
+                    "name": "Denitrification Filters for Nitrogen",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui0SAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0UAAS"
+                    ],
+                    "name": "Dewatering Technology or Processes",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui0UAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0XAAS"
+                    ],
+                    "name": "Dioxins & Furans - Work Practice Standard (Inspection, Adjustment, and/or Maintenance and Repairs to Ensure Optimal Combustion)",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui0XAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0aAAC"
+                    ],
+                    "name": "Enhanced Biological Phosphorus Removal (EBPR) with Volatile Fatty Acids (VFA) Addition and Filters",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui0aAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0bAAC"
+                    ],
+                    "name": "Filtration",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui0bAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0cAAC"
+                    ],
+                    "name": "Flash Tanks",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui0cAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0dAAC"
+                    ],
+                    "name": "Flushing",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui0dAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0iAAC"
+                    ],
+                    "name": "In-plant Wet Weather Management Processes",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui0iAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0jAAC"
+                    ],
+                    "name": "In-well Air Stripping",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui0jAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0oAAC"
+                    ],
+                    "name": "Landfill Covers",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui0oAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0rAAC"
+                    ],
+                    "name": "Landfill Groundwater Monitoring",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui0rAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0vAAC"
+                    ],
+                    "name": "Membrane Bioreactor (MBR)",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui0vAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0wAAC"
+                    ],
+                    "name": "Membrane Filter",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui0wAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0xAAC"
+                    ],
+                    "name": "Membrane Processes",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui0xAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui0yAAC"
+                    ],
+                    "name": "Mercury - Activated Carbon Injection",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui0yAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui12AAC"
+                    ],
+                    "name": "Mercury - Selective Catalytic Reduction",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui12AAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui14AAC"
+                    ],
+                    "name": "MLE/3-stage Westbank",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui14AAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui15AAC"
+                    ],
+                    "name": "Moving Bed Biofilm Reactor (MBBR)",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui15AAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui16AAC"
+                    ],
+                    "name": "Multi-Phase Extraction",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui16AAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui1CAAS"
+                    ],
+                    "name": "Permeable Reactive Barrier",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui1CAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui1DAAS"
+                    ],
+                    "name": "Physical and Chemical Treatment Processes",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui1DAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui1HAAS"
+                    ],
+                    "name": "Process Monitoring Technologies",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui1HAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui1JAAS"
+                    ],
+                    "name": "Re-use or Disposal Processes",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui1JAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui1RAAS"
+                    ],
+                    "name": "Related Technologies for NPDES: Secondary or Advanced Wastewater Treatment Standards",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui1RAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui1TAAS"
+                    ],
+                    "name": "Related Technologies for NSPS: Oil and Gas Processing Emissions Control",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui1TAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui1UAAS"
+                    ],
+                    "name": "Related Technologies for Safe Water Drinking Act - Arsenic Rule: Arsenic Remediation",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui1UAAS"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui1aAAC"
+                    ],
+                    "name": "Sequencing Batch Reactor (SBR)/Cyclic Activated Sludge",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui1aAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui1eAAC"
+                    ],
+                    "name": "Sulphur Dioxide - Dry Sorbent Injection",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui1eAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui1fAAC"
+                    ],
+                    "name": "Sulphur Dioxide - Flue-gas Desulphurization",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui1fAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui1gAAC"
+                    ],
+                    "name": "Tertiary Clarifier/Tertiary Filter",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui1gAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui1hAAC"
+                    ],
+                    "name": "Thermal Conversion Technology or Processes",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui1hAAC"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000Ui1iAAC"
+                    ],
+                    "name": "Thickening Technology or Processes",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000Ui1iAAC"
+                }
+            ],
+            "filterGroupType": "Solution"
+        }
+    ],
+    "currentLanguage": {
+        "name": "English",
+        "iso": "en",
+        "direction": "ltr"
+    },
+    "availableLanguages": [
+        {
+            "name": "English",
+            "iso": "en",
+            "direction": "ltr"
+        },
+        {
+            "name": "Arabic",
+            "iso": "ar",
+            "direction": "rtl"
+        },
+        {
+            "name": "Chinese (中文)",
+            "iso": "zh",
+            "direction": "ltr"
+        },
+        {
+            "name": "French",
+            "iso": "fr",
+            "direction": "ltr"
+        },
+        {
+            "name": "Portuguese",
+            "iso": "pt",
+            "direction": "ltr"
+        },
+        {
+            "name": "Russian",
+            "iso": "ru",
+            "direction": "ltr"
+        },
+        {
+            "name": "Spanish",
+            "iso": "es",
+            "direction": "ltr"
+        }
+    ]
+}

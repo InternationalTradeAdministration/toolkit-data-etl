@@ -1,0 +1,20 @@
+{
+  "name": "lambda-toolkits",
+  "version": "0.0.2",
+  "description": "A Lambda function for retreiving, transforming, and ingesting Toolkits data from Salesforce.",
+  "main": "index.js",
+  "scripts": {
+    "setup": "./node_modules/.bin/node-lambda setup",
+    "test": "./node_modules/.bin/node-lambda run",
+    "package": "./node_modules/.bin/node-lambda package",
+    "deploy": "./node_modules/.bin/node-lambda deploy"
+  },
+  "devDependencies": {
+    "node-lambda": "^0.9.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.216.1",
+    "jsforce": "^1.8.2",
+    "request": "^2.85.0"
+  }
+}

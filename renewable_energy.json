@@ -1,0 +1,318 @@
+{
+    "program": {
+        "name": "Renewable Energy",
+        "id": "a31t0000000CyDQ",
+        "hasTranslations": false,
+        "disclaimerText": "The information on the toolkit website is intended to assist foreign buyers seeking to identify U.S. technology and service providers in the Renewable Energy industry. The list is not exhaustive of all U.S. exporters of goods, services or technology in this sector.\nListing does not constitute endorsement by ITA of a business or its products, services or technology.\nITA has performed limited due diligence but recommends strongly that both parties perform their own due diligence, investigation, and background research before entering into a commercial relationship on the basis of the information found on this website. \nITA assumes no responsibility or liability for the actions users may take based on the information provided on this website. ITA reserves the right not to list any particular business and to remove companies or modules from the Toolkit as ITA deems necessary or appropriate.",
+        "description": "The Renewable Energy Toolkit is a buyer&#39;s resource guide that connects decision makers for renewable energy projects in foreign countries with U.S. companies providing equipment, services or technologies. \nPlease begin your search by selecting a renewable energy sector and project type.\nThe sectors included in this first edition of the Toolkit are solar, wind, geothermal, and hydro. U.S. companies that would like to be listed as solution providers for these sectors should submit an application ."
+    },
+    "pageLabels": {
+        "usSolutionProviderLabel": "U.S. Solution Provider",
+        "totalProvidersLabel": "Total Providers",
+        "solutionLabel": "Solution",
+        "selectAnOptionLabel": "Select an Option",
+        "searchLabel": "U.S. Solution Provider",
+        "noResultsForCriteriaLabel": "There are no results for the selected criteria"
+    },
+    "filterGroups": [
+        {
+            "sortOrder": 2,
+            "name": "Project Type",
+            "filterItems": [
+                {
+                    "productIds": [
+                        "01tt0000000UiDTAA0"
+                    ],
+                    "name": "Materials & Components",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UiDTAA0"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UiESAA0"
+                    ],
+                    "name": "CSP",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UiESAA0"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UiDzAAK"
+                    ],
+                    "name": "Ground-Mounted",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UiDzAAK"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UiHkAAK"
+                    ],
+                    "name": "Utility-Scale",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UiHkAAK"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UiDhAAK"
+                    ],
+                    "name": "Roof-Mounted",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UiDhAAK"
+                }
+            ],
+            "filterGroupType": "Product Class"
+        },
+        {
+            "sortOrder": 3,
+            "name": "Equipment/Service Type",
+            "filterItems": [
+                {
+                    "productIds": [
+                        "01tt0000000UiDTAA0"
+                    ],
+                    "name": "Metal Pastes",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UiDTAA0"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UiCqAAK"
+                    ],
+                    "name": "Silicon",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UiCqAAK"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UiESAA0"
+                    ],
+                    "name": "CSP Operations",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UiESAA0"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UiDzAAK"
+                    ],
+                    "name": "Ground Inverters",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UiDzAAK"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UiD5AAK"
+                    ],
+                    "name": "CSP Components",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UiD5AAK"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UiHkAAK"
+                    ],
+                    "name": "Offshore Design & Engineering",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UiHkAAK"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UiHqAAK"
+                    ],
+                    "name": "Offshore Legal & Financial",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UiHqAAK"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UiDhAAK"
+                    ],
+                    "name": "Roof Inverters",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UiDhAAK"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UiFeAAK"
+                    ],
+                    "name": "Utility Onshore Safety Equipment",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UiFeAAK"
+                }
+            ],
+            "filterGroupType": "Product Category"
+        },
+        {
+            "sortOrder": 4,
+            "name": "Offering",
+            "filterItems": [
+                {
+                    "productIds": [
+                        "01tt0000000UiDTAA0"
+                    ],
+                    "name": "Equipment",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UiDTAA0"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UiESAA0"
+                    ],
+                    "name": "Services",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UiESAA0"
+                }
+            ],
+            "filterGroupType": "Offering"
+        },
+        {
+            "sortOrder": 1,
+            "name": "Sector",
+            "filterItems": [
+                {
+                    "summary": "Solar power is the conversion of energy from sunlight into electricity. Solar typically uses a photovoltaic (PV) cell, composed of semiconductor material, which combines some properties of metals and some properties of insulators. When light is absorbed by a semiconductor, photons of light can transfer their energy to electrons, allowing the electrons to flow through the material as electrical current.  The most common PV solar cell is crystalline silicon followed by  cadmium telluride (CdTe), a type of “thin film” solar cell. Concentrating Solar Power (CSP) uses mirrors to concentrate the energy from the sun to drive traditional steam turbines or engines that create electricity.  The thermal energy concentrated in a CSP plant can be stored and used to produce electricity when it is needed, day or night.",
+                    "productIds": [
+                        "01tt0000000UiDTAA0",
+                        "01tt0000000UiCqAAK",
+                        "01tt0000000UiESAA0",
+                        "01tt0000000UiDzAAK",
+                        "01tt0000000UiD5AAK",
+                        "01tt0000000UiDhAAK"
+                    ],
+                    "name": "Solar",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "a0vt0000000U6WxAAK"
+                },
+                {
+                    "summary": "This sector uses wind to generate mechanical power or electricity.  Wind turbines convert the kinetic energy in the wind into mechanical power, which can be converted into electricity. The energy in the wind turns the propeller-like blades around a rotor. The rotor is connected to the main shaft, which spins a generator to create electricity. Medium-size wind power installations (100 kw - 20 MW) tend to be Distributed Wind projects. Most wind power installations of all sizes are located onshore, but a growing number of \"offshore\" utility-scale projects are being deployed, which require unique technology and services.",
+                    "productIds": [
+                        "01tt0000000UiHkAAK",
+                        "01tt0000000UiHqAAK",
+                        "01tt0000000UiFeAAK"
+                    ],
+                    "name": "Wind",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "a0vt0000000U6WyAAK"
+                }
+            ],
+            "filterGroupType": "Resource"
+        },
+        {
+            "sortOrder": 5,
+            "name": "Specific Equipment/Service",
+            "filterItems": [
+                {
+                    "productIds": [
+                        "01tt0000000UiDTAA0"
+                    ],
+                    "name": "Aluminum Paste",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UiDTAA0"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UiCqAAK"
+                    ],
+                    "name": "Amorphous Silicon",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UiCqAAK"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UiESAA0"
+                    ],
+                    "name": "CSP Inspection",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UiESAA0"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UiDzAAK"
+                    ],
+                    "name": "Ground Central Inverters",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UiDzAAK"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UiD5AAK"
+                    ],
+                    "name": "Mirrors",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UiD5AAK"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UiHkAAK"
+                    ],
+                    "name": "Offshore Conceptual Design",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UiHkAAK"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UiHqAAK"
+                    ],
+                    "name": "Offshore Financial Modeling",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UiHqAAK"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UiDhAAK"
+                    ],
+                    "name": "Roof Central Inverters",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UiDhAAK"
+                },
+                {
+                    "productIds": [
+                        "01tt0000000UiFeAAK"
+                    ],
+                    "name": "Utility-Scale Onshore Fall Prevention",
+                    "linksSize": 0,
+                    "links": [],
+                    "id": "01tt0000000UiFeAAK"
+                }
+            ],
+            "filterGroupType": "Solution"
+        }
+    ],
+    "currentLanguage": {
+        "name": "English",
+        "iso": "en",
+        "direction": "ltr"
+    },
+    "availableLanguages": [
+        {
+            "name": "English",
+            "iso": "en",
+            "direction": "ltr"
+        }
+    ]
+}
