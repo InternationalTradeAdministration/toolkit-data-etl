@@ -15,6 +15,7 @@ const conn = new sf.Connection({
 	loginUrl: 'https://trade.my.salesforce.com'
 });
 
+const provider_url = 'https://www.export.gov/provider?id='
 
 getObjects = function() {
 	// Environmental Solutions: 
@@ -23,7 +24,7 @@ getObjects = function() {
 		if (err) { return console.error(err); }
 		//writeToFile('environmental_solutions', res);
 		data.api_results = res;
-		conn.query("SELECT ID, Name, Company_Description__c, Website__c FROM Participation__c WHERE Program__c IN ('a31t0000000CyD6')", function(err, res){
+		conn.query("SELECT ID, Name, Company_Description__c FROM Participation__c WHERE Program__c IN ('a31t0000000CyD6')", function(err, res){
 			if (err) { return console.error(err); }
 			//writeToFile('providers', res);
 			data.providers = res;
@@ -107,7 +108,7 @@ processESEntries = function(data) {
 }
 
 buildSolutionsWithProvider = function(entries) {
-	const solutions_with_provider = {};
+	const solutions_with_provider = {}
 
 	_.forEach(entries, function(item){
 		if(solutions_with_provider[item.Name]) {
@@ -117,12 +118,14 @@ buildSolutionsWithProvider = function(entries) {
 			solutions_with_provider[item.Name] = [item.Participant__c];
 		}
 	})
+	return solutions_with_provider
 }
 
 
 assignESIds = function(solutions, issues, regulations, providers, solutions_with_provider){
-	for (let key in solutions) {
-		let solution = solutions[key]
+
+	_.forEach(solutions, function(solution) {
+		
 		let iss = _.filter(issues, function(issue){ return issue.productIds.includes(solution.id)})
 		let regs = _.filter(regulations, function(regulation){ return regulation.productIds.includes(solution.id)})
 
@@ -162,32 +165,43 @@ assignESIds = function(solutions, issues, regulations, providers, solutions_with
 			return prov
 		})
 
-	}
+	})
 }
 
 processESFields = function(all_entries) {
 	let new_entries = _.map(all_entries, function(entry) {
-		entry = _.omit(entry, ['productIds', 'linksSize', 'id', 'attributes', 'Id'])
 		if(entry.type === 'Provider'){
-			entry.summary = entry.Company_Description__c;
-			entry.name = entry.Name;
-			entry.links = [{url: entry.Website__c, display_name: entry.name}]
-			delete entry.Company_Description__c
-			delete entry.Name
-			delete entry.Website__c
-		} else if(!_.isEmpty(entry.links)){
-			entry.links = _.map(entry.links, function(link){ 
-				link.display_name = link.name
-				delete link.id
-				delete link.name
-				return link
-			})
+			entry = processProviderEntry(entry)
+		} 
+		else if(!_.isEmpty(entry.links)){
+			entry = processLinks(entry)
 		}
 		if(!entry.summary)
 			entry.summary = null
+		entry = _.omit(entry, ['productIds', 'linksSize', 'id', 'attributes', 'Id'])
 		return entry
 	})
 	return new_entries
+}
+
+processProviderEntry = function(entry) {
+	entry.summary = entry.Company_Description__c;
+	entry.name = entry.Name;
+	entry.links = [{url: provider_url+entry.Id, display_name: entry.name}]
+	delete entry.Company_Description__c
+	delete entry.Name
+	delete entry.Website__c
+	return entry
+}
+
+processLinks = function(entry) {
+	entry.links = _.map(entry.links, function(link){ 
+		link.display_name = link.name
+		delete link.id
+		delete link.name
+		return link
+	})
+	return entry
 }
 
 writeToBucket = function(entries) {
