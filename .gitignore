@@ -32,6 +32,7 @@ node_modules
 .lock-wscript
 
 build
+data
 
 .env
 deploy.env
