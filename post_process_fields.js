@@ -1,9 +1,11 @@
 const _ = require('lodash')
 const provider_url = 'https://www.export.gov/provider?id='
 
-postProcessFields = (all_entries) => {
-	let new_entries = _.map(all_entries, (entry) => {
+postProcessFields = (all_entries, config_entry) => {
+	let new_entries = _.compact(_.map(all_entries, (entry) => {
 		if(entry.type === 'Provider'){
+			if(_.isEmpty(entry[config_entry.low_level+'_id'])) // Exclude providers with no active Solutions
+				return null
 			entry = processProviderEntry(entry)
 		} 
 		else if(!_.isEmpty(entry.links)){
@@ -13,7 +15,7 @@ postProcessFields = (all_entries) => {
 			entry.summary = null
 		entry = _.omit(entry, ['productIds', 'linksSize', 'id', 'attributes', 'Id'])
 		return entry
-	})
+	}))
 	return new_entries
 }
 

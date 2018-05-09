@@ -169,5 +169,6 @@ var config = [
 		freshen_url: 'https://api.trade.gov/v1/civil_nuclear/freshen.json?api_key=',
 		file_name: 'civil_nuclear'
 	},
+]
 
 module.exports = config

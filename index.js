@@ -35,7 +35,7 @@ getObjects = () => {
 				query_result.filter_groups.push({name: 'Provider', filterItems: res.records})
 
 				// Fetch solutions with related provider ids:
-				conn.query(`SELECT ID, Name, Participant__c FROM Asset WHERE Program__c IN ('${config_entry.program_id}')`, (err, res) => {
+				conn.query(`SELECT ID, Name, Participant__c FROM Asset WHERE Status='Active' AND Program__c IN ('${config_entry.program_id}')`, (err, res) => {
 					if (err) { return console.error(err) }
 					query_result.solutions_with_providers = res.records
 	
@@ -55,9 +55,10 @@ processEntries = (query_result, config_entry) => {
 	const data = preProcessFields(query_result, config_entry)
 	
 	assignIds(data, config_entry)
+	
 	let all_entries = _.flatten(_.values(_.omit(data, ['solutions_with_providers'])))
+	all_entries = postProcessFields(all_entries, config_entry)
 
-	all_entries = postProcessFields(all_entries)
 	writeToBucket(all_entries, config_entry)
 }
 
