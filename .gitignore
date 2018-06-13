@@ -35,5 +35,7 @@ build
 data
 
 .env
+local.env
 deploy.env
 .DS_Store
+/.lambda/
