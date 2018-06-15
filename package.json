@@ -5,18 +5,24 @@
   "main": "new_index.js",
   "scripts": {
     "setup": "./node_modules/.bin/node-lambda setup",
-    "test": "./node_modules/mocha/bin/mocha --recursive",
+    "test": "jest",
     "local": "./node_modules/.bin/node-lambda run -f local.env && standard 'lib/**/*.js'",
     "fix": "standard --fix 'lib/**/*.js'",
-    "fixtest": "standard --fix 'test/**/*.js' --env mocha",
+    "fixtest": "standard --fix 'test/**/*.js'",
     "package": "./node_modules/.bin/node-lambda package",
     "deploy": "./node_modules/.bin/node-lambda deploy -f deploy.env -S event_sources.json"
   },
+  "standard": {
+    "envs": [
+      "jest"
+    ],
+    "globals": [
+      "context"
+    ]
+  },
   "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^5.2.0",
+    "jest": "^23.1.0",
     "node-lambda": "^0.11.7",
-    "sinon": "^5.1.1",
     "standard": "^11.0.1"
   },
   "dependencies": {

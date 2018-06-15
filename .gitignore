@@ -33,6 +33,7 @@ node_modules
 
 build
 data
+/output/
 
 .env
 local.env
