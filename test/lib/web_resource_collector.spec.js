@@ -31,7 +31,7 @@ describe('WebResourceCollector', () => {
       }
     ]
 
-    collector = new WebResourceCollector(assets)
+    collector = new WebResourceCollector(console, assets)
 
     let relatedResources = [
       {
