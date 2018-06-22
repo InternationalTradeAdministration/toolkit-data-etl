@@ -38,11 +38,13 @@ describe('WebResourceCollector', () => {
         Product__c: 'sfdc_product_1',
         Primary_Web_Resource__c: 'sfdc_web_resource_1',
         Primary_Web_Resource__r: {
+          Type__c: 'Environmental Issue',
           Id: 'sfdc_web_resource_1',
           Name: 'Web Resource 1'
         },
         Related_Web_Resource__c: 'sfdc_related_web_resource_1',
         Related_Web_Resource__r: {
+          Type__c: 'Foo Bar',
           Id: 'sfdc_related_web_resource_1',
           Name: 'Related Web Resource 1'
         }
@@ -51,6 +53,7 @@ describe('WebResourceCollector', () => {
         Product__c: 'sfdc_product_2',
         Primary_Web_Resource__c: 'sfdc_web_resource_2',
         Primary_Web_Resource__r: {
+          Type__c: 'EPA Regulation',
           Id: 'sfdc_web_resource_2',
           Name: 'Web Resource 2',
           Summary__c: 'Web Resource 2 Summary'
@@ -109,53 +112,62 @@ describe('WebResourceCollector', () => {
           expect(queryWebResourceLinksSpy).toHaveBeenCalledWith(['sfdc_web_resource_1', 'sfdc_web_resource_2', 'sfdc_related_web_resource_1'])
 
           let expectedWebResoucesByProductId = {
-            sfdc_product_1: [
-              {
-                Id: 'sfdc_web_resource_1',
-                Name: 'Web Resource 1',
-                links: [
-                  {
-                    Id: 'web_resource_link_id_1',
-                    Web_Resource__c: 'sfdc_web_resource_1',
-                    DisplayName__c: 'Link 1',
-                    URL__c: 'https://example.org/link_1'
-                  }
-                ]
-              },
-              {
-                Id: 'sfdc_related_web_resource_1',
-                Name: 'Related Web Resource 1',
-                links: [
-                  {
-                    Id: 'web_resource_link_id_4',
-                    Web_Resource__c: 'sfdc_related_web_resource_1',
-                    DisplayName__c: 'Link 4',
-                    URL__c: 'https://example.org/link_4'
-                  }
-                ]
-              }
-            ],
-            sfdc_product_2: [
-              {
-                Id: 'sfdc_web_resource_2',
-                Name: 'Web Resource 2',
-                Summary__c: 'Web Resource 2 Summary',
-                links: [
-                  {
-                    Id: 'web_resource_link_id_2',
-                    Web_Resource__c: 'sfdc_web_resource_2',
-                    DisplayName__c: 'Link 2',
-                    URL__c: 'https://example.org/link_2'
-                  },
-                  {
-                    Id: 'web_resource_link_id_3',
-                    Web_Resource__c: 'sfdc_web_resource_2',
-                    DisplayName__c: 'Link 3',
-                    URL__c: 'https://example.org/link_3'
-                  }
-                ]
-              }
-            ]
+            sfdc_product_1: {
+              'Environmental Issue': [
+                {
+                  Type__c: 'Environmental Issue',
+                  Id: 'sfdc_web_resource_1',
+                  Name: 'Web Resource 1',
+                  links: [
+                    {
+                      Id: 'web_resource_link_id_1',
+                      Web_Resource__c: 'sfdc_web_resource_1',
+                      DisplayName__c: 'Link 1',
+                      URL__c: 'https://example.org/link_1'
+                    }
+                  ]
+                }
+              ],
+              'Foo Bar': [
+                {
+                  Type__c: 'Foo Bar',
+                  Id: 'sfdc_related_web_resource_1',
+                  Name: 'Related Web Resource 1',
+                  links: [
+                    {
+                      Id: 'web_resource_link_id_4',
+                      Web_Resource__c: 'sfdc_related_web_resource_1',
+                      DisplayName__c: 'Link 4',
+                      URL__c: 'https://example.org/link_4'
+                    }
+                  ]
+                }
+              ]
+            },
+            sfdc_product_2: {
+              'EPA Regulation': [
+                {
+                  Type__c: 'EPA Regulation',
+                  Id: 'sfdc_web_resource_2',
+                  Name: 'Web Resource 2',
+                  Summary__c: 'Web Resource 2 Summary',
+                  links: [
+                    {
+                      Id: 'web_resource_link_id_2',
+                      Web_Resource__c: 'sfdc_web_resource_2',
+                      DisplayName__c: 'Link 2',
+                      URL__c: 'https://example.org/link_2'
+                    },
+                    {
+                      Id: 'web_resource_link_id_3',
+                      Web_Resource__c: 'sfdc_web_resource_2',
+                      DisplayName__c: 'Link 3',
+                      URL__c: 'https://example.org/link_3'
+                    }
+                  ]
+                }
+              ]
+            }
           }
           expect(webResourcesByProductId).toEqual(expectedWebResoucesByProductId)
         })

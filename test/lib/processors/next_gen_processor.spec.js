@@ -42,21 +42,25 @@ describe('NextGenProcessor', function () {
         })
 
         let webResources = {
-          sfdc_product_1: [
-            {
-              Id: 'sfdc_web_resource_1',
-              Name: 'Web Resource 1',
-              links: []
-            }
-          ],
-          sfdc_product_2: [
-            {
-              Id: 'sfdc_web_resource_2',
-              Name: 'Web Resource 2',
-              Summary__c: 'Web Resource 2 Summary',
-              links: []
-            }
-          ]
+          sfdc_product_1: {
+            'Performance Improvement Area': [
+              {
+                Id: 'sfdc_web_resource_1',
+                Name: 'Web Resource 1',
+                links: []
+              }
+            ]
+          },
+          sfdc_product_2: {
+            'Performance Improvement Area': [
+              {
+                Id: 'sfdc_web_resource_2',
+                Name: 'Web Resource 2',
+                Summary__c: 'Web Resource 2 Summary',
+                links: []
+              }
+            ]
+          }
         }
 
         extractWebResourcesSpy = jest.spyOn(processor, '_extractWebResources').mockImplementation(() => {
