@@ -1,5 +1,7 @@
 # Toolkits Search
 
+[![Build Status](https://travis-ci.org/InternationalTradeAdministration/toolkit-data-etl.svg?branch=master)](https://travis-ci.org/InternationalTradeAdministration/toolkit-data-etl)
+
 ## Install
 
 Clone this repository.
