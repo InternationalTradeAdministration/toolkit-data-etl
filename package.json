@@ -1,16 +1,17 @@
 {
-  "name": "toolkit-data-etl",
+  "name": "ita-toolkit-data-etl",
   "version": "0.0.1",
   "description": "A Lambda function for retrieving, transforming, and ingesting Toolkits data from Salesforce.",
   "main": "new_index.js",
   "scripts": {
     "setup": "./node_modules/.bin/node-lambda setup",
-    "test": "jest",
-    "local": "./node_modules/.bin/node-lambda run -f local.env && standard 'lib/**/*.js'",
+    "test": "jest && standard 'lib/**/*.js'",
+    "local": "./node_modules/.bin/node-lambda run -f local.env",
     "fix": "standard --fix 'lib/**/*.js'",
     "fixtest": "standard --fix 'test/**/*.js'",
     "package": "./node_modules/.bin/node-lambda package",
-    "deploy": "./node_modules/.bin/node-lambda deploy -f deploy.env -S event_sources.json"
+    "deploy-staging": "./node_modules/.bin/node-lambda deploy -e staging -f deploy.staging.env",
+    "deploy-production": "./node_modules/.bin/node-lambda deploy -e production -f deploy.production.env -S event_sources.json"
   },
   "standard": {
     "envs": [
@@ -21,14 +22,14 @@
     ]
   },
   "devDependencies": {
-    "jest": "^23.1.0",
+    "jest": "^24.7.1",
     "node-lambda": "^0.11.7",
     "standard": "^11.0.1"
   },
   "dependencies": {
-    "aws-sdk": "^2.253.1",
-    "jsforce": "^1.8.4",
-    "lodash": "^4.17.10",
-    "request": "^2.87.0"
+    "aws-sdk": "^2.443.0",
+    "jsforce": "^1.9.1",
+    "lodash": "^4.17.11",
+    "request": "^2.88.0"
   }
 }

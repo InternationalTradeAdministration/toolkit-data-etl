@@ -14,10 +14,13 @@ npm install
 cp .env.example .env
 
 # create your own copy of local.env and update it
-cp local.env.example local.env
+cp deploy.env.example local.env
+
+# create your own copy of deploy.staging.env and update it
+cp deploy.env.example deploy.staging.env
 
 # create your own copy of deploy.env and update it
-cp deploy.env.example deploy.env
+cp deploy.env.example deploy.production.env
 
 ```
 
@@ -30,5 +33,6 @@ npm run local # run node-lambda using environment variables from local.env
 npm run fix # run standard --fix on js files in lib
 npm run fixtest # run standard --fix on specs in test directory
 npm run package # just generate the zip that would be uploaded to AWS
-npm run deploy # deploy to AWS using environment variables from deploy.env
+npm run deploy-staging # deploy to AWS using environment variables from deploy.staging.env
+npm run deploy-production # deploy to AWS using environment variables from deploy.production.env
 ```
