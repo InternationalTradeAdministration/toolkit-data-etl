@@ -36,7 +36,6 @@ data
 /output/
 
 .env
-local.env
-deploy.env
+*.env
 .DS_Store
 /.lambda/
