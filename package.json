@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "jest": "^24.7.1",
-    "node-lambda": "^0.11.7",
+    "node-lambda": "^1.0.0",
     "standard": "^11.0.1"
   },
   "dependencies": {
